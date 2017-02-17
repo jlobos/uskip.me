@@ -1,11 +1,11 @@
 {
   "name": "uskip.me",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Shorten URLs using Uskip.me and earn money",
   "license": "MIT",
   "repository": "jlobos/uskip.me",
   "author": "Jesús Lobos <jlobitu@gmail.com>",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "standard && ava"
   },
@@ -13,7 +13,7 @@
     "node": ">=6"
   },
   "files": [
-    "lib/index.js"
+    "index.js"
   ],
   "keywords": [
     "uskip.me",
@@ -24,10 +24,10 @@
     "shortener"
   ],
   "dependencies": {
-    "request": "^2.79.0"
+    "node-fetch": "^1.6.3"
   },
   "devDependencies": {
-    "ava": "^0.18.0",
+    "ava": "^0.18.1",
     "standard": "^8.6.0"
   }
 }
