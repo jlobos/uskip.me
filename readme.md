@@ -2,24 +2,24 @@
 
 Shorten URLs using Uskip.me and earn money :moneybag:
 
+## Install
+
+```bash
+$ npm install --save uskip.me
+```
+
+## Usage
+
 ```js
 const short = require('uskip.me')
 
 short({ key: '9AoAAA', url: 'https://www.google.cl' })
 .then(shortenedUrl => {
-  console.log(shortenedUrl) // http://uskip.me/AdcDAA
+  console.log(shortenedUrl)
+  // http://uskip.me/AdcDAA
 })
 ```
 
-## Installation
+## License
 
-```console
-$ npm install uskip.me
-```
-
-## Testing
-
-```console
-$ npm install
-$ npm test
-```
+MIT
